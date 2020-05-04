@@ -1,0 +1,68 @@
+
+importFrom("grDevices",
+           "dev.off")
+
+importFrom("parallel",
+           "clusterCall",
+           "clusterMap",
+           "detectCores",
+           "makePSOCKcluster",
+           "mcmapply",
+           "stopCluster")
+
+importFrom("pdftools",
+           "pdf_info")
+
+importFrom("grDevices",
+           "cairo_pdf",
+           "pdf",
+           "png",
+           "postscript")
+
+importFrom("utils",
+           "capture.output",
+           "example",
+           "install.packages",
+           "sessionInfo")
+
+export("gdiff",
+       "gdiffExamples",
+       "gdiffPackage",
+
+       "gdiffOutput",
+       "gdiffExamplesOutput",
+       "gdiffPackageOutput",
+
+       "gdiffCompare",
+
+       "gdiffDevice",
+       "cairo_pdf_device",
+       "pngDevice",
+       "pdfDevice",
+       "postscriptDevice",
+
+       "currentSession",
+       "dockerSession",
+       "localSession",
+       "remoteSession",
+
+       "gdiffGenerateOutput")
+
+S3method("gdiff", "function")
+S3method("gdiff", "list")
+S3method("gdiffExamples", "character")
+S3method("gdiffExamples", "function")
+S3method("gdiffOutput", "function")
+S3method("gdiffExamplesOutput", "character")
+S3method("gdiffExamplesOutput", "function")
+
+S3method("generateOutput", "gdiffClusterSession")
+S3method("generateOutput", "gdiffCurrentSession")
+S3method("generateOutput", "gdiffDockerSession")
+S3method("generateOutput", "gdiffLocalSession")
+S3method("generateOutput", "gdiffRemoteSession")
+
+S3method("remoteSession", "character")
+S3method("remoteSession", "cluster")
+
+S3method("print", "gdiffComparison")
