@@ -1,7 +1,7 @@
-20d35c6ea114eb51aabcd0ded51d4274 *DESCRIPTION
-e569f6fa1df484e4480b734b13721e5d *NAMESPACE
+186f0c14b9d09944b801f9a8a0de1764 *DESCRIPTION
+c6d714edad97c9b0bd65aab23f6352fc *NAMESPACE
 ecf3cdd36df38505de8209c2c1ae8c1f *R/code.R
-befe2c49dc5e8b116e2cd7d37f34922d *R/compare.R
+9f70084589166ddc1a0a1c6ee13ba65a *R/compare.R
 16ce11b877700850a16d17bbce48c9bb *R/device.R
 8cd8a64a24dbe2243493d5541e248e63 *R/gdiff.R
 2450fc1177a8c5dd0798d4c7ef5ecbd2 *R/output.R
@@ -9,7 +9,7 @@ cc936f62020e3ea8dc705bf1585c0edb *R/session.R
 3ad942a5bfa5eb53befacdcfae39b837 *R/util.R
 3239a9e2acf70ff8cae43e87d675efc4 *R/zzz.R
 3c5e482b803c6618e8b62b3106b4db45 *README.md
-982165a27fe21284e476a5ef394a10f7 *inst/NEWS.Rd
+55126ff6c37a722800fb11dff0103b38 *inst/NEWS.Rd
 f5193f4426e9c1bc2cadc8465cb3e156 *inst/regression-tests/grImport_0.9-1.tar.gz
 530295ec98cf49a40955ba249c0ecd69 *inst/regression-tests/grImport_0.9-2.tar.gz
 746a4cfc3e6bfb6edd4082bba6ce3b48 *inst/regression-tests/test.R
